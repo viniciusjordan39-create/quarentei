@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" role="img">
+  <title>QUARENTEI — Capa do E-book — Dra. Bruna Ghetti</title>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#F8ECD8"/>
+      <stop offset="32%"  stop-color="#EC9A6E"/>
+      <stop offset="68%"  stop-color="#D45A28"/>
+      <stop offset="100%" stop-color="#C03C14"/>
+    </linearGradient>
+    <linearGradient id="goldLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#C4973A" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#E8C85A"/>
+      <stop offset="50%"  stop-color="#F5E080"/>
+      <stop offset="80%"  stop-color="#E8C85A"/>
+      <stop offset="100%" stop-color="#C4973A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="phoenixGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#F8ECC0"/>
+      <stop offset="50%"  stop-color="#D4A83C"/>
+      <stop offset="100%" stop-color="#B8841A"/>
+    </linearGradient>
+    <linearGradient id="spineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#9A2C0E"/>
+      <stop offset="100%" stop-color="#C03C14"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Spine -->
+  <rect x="0" y="0" width="14" height="560" fill="url(#spineGrad)"/>
+  <!-- Cover background -->
+  <rect x="14" y="0" width="386" height="560" fill="url(#bgGrad)"/>
+
+  <!-- Top accent bar -->
+  <rect x="14" y="0" width="386" height="4" fill="#9A2C0E"/>
+  <rect x="14" y="4" width="386" height="1.5" fill="url(#goldLine)"/>
+
+  <!-- Bottom accent bar -->
+  <rect x="14" y="554.5" width="386" height="1.5" fill="url(#goldLine)" opacity="0.7"/>
+  <rect x="14" y="556" width="386" height="4" fill="#9A2C0E"/>
+
+  <!-- Spine text -->
+  <text x="7" y="280" font-family="Georgia, serif" font-size="7" fill="#F8ECC0" opacity="0.75"
+        text-anchor="middle" transform="rotate(-90,7,280)" letter-spacing="1">QUARENTEI · Dra. Bruna Ghetti</text>
+
+  <!-- TITLE -->
+  <text x="207" y="74" font-family="Georgia,'Times New Roman',serif" font-size="54"
+        font-weight="700" fill="#180804" text-anchor="middle" letter-spacing="4" opacity="0.93">QUARENTEI</text>
+
+  <!-- Gold rule under title -->
+  <rect x="80" y="82" width="254" height="1.5" fill="url(#goldLine)"/>
+
+  <!-- Subtitle -->
+  <text x="207" y="101" font-family="Georgia,serif" font-size="9" fill="#220C06"
+        text-anchor="middle" letter-spacing="0.8" opacity="0.82">O GUIA MÉDICO QUE TODA MULHER 40+ MERECIA TER</text>
+
+  <!-- ── PHOENIX ILLUSTRATION ── -->
+  <g opacity="0.84">
+    <!-- Head -->
+    <ellipse cx="207" cy="178" rx="14" ry="16" fill="none" stroke="url(#phoenixGold)" stroke-width="1.4"/>
+    <!-- Beak -->
+    <path d="M221,172 Q231,169 233,174 Q230,179 221,177Z" fill="url(#phoenixGold)" opacity="0.9"/>
+    <!-- Eye -->
+    <circle cx="218" cy="175" r="2.2" fill="#180804" opacity="0.65"/>
+    <circle cx="219" cy="174.2" r="0.7" fill="#F8ECC0" opacity="0.8"/>
+
+    <!-- Crest feathers -->
+    <path d="M200,166 Q203,150 207,142 Q211,150 213,166" fill="none" stroke="url(#phoenixGold)" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M194,169 Q196,153 200,145 Q204,154 202,171" fill="none" stroke="url(#phoenixGold)" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M213,166 Q215,150 220,143 Q223,153 219,169" fill="none" stroke="url(#phoenixGold)" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Neck -->
+    <path d="M207,194 Q202,215 200,238 Q203,228 207,218 Q211,228 214,238 Q212,215 207,194Z" fill="none" stroke="url(#phoenixGold)" stroke-width="1.6" stroke-linecap="round"/>
+
+    <!-- Left wing - major -->
+    <path d="M207,250 Q175,228 138,206 Q112,192 96,196 Q104,214 126,220 Q150,226 172,238 Q192,250 205,268Z"
+          fill="none" stroke="url(#phoenixGold)" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M207,260 Q172,242 130,222 Q108,212 94,218 Q103,232 124,236 Q148,242 170,255 Q192,268 205,282Z"
+          fill="none" stroke="url(#phoenixGold)" stroke-width="1.1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M207,270 Q170,256 126,238 Q106,230 92,238 Q102,250 122,252 Q146,256 170,270 Q193,283 206,296Z"
+          fill="none" stroke="url(#phoenixGold)" stroke-width="0.8" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- Right wing - major -->
+    <path d="M207,250 Q239,228 276,206 Q302,192 318,196 Q310,214 288,220 Q264,226 242,238 Q222,250 209,268Z"
+          fill="none" stroke="url(#phoenixGold)" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M207,260 Q242,242 284,222 Q306,212 320,218 Q311,232 290,236 Q266,242 244,255 Q222,268 209,282Z"
+          fill="none" stroke="url(#phoenixGold)" stroke-width="1.1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M207,270 Q244,256 288,238 Q308,230 322,238 Q312,250 292,252 Q268,256 244,270 Q221,283 208,296Z"
+          fill="none" stroke="url(#phoenixGold)" stroke-width="0.8" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- Body -->
+    <path d="M200,238 Q196,262 194,300 Q196,290 207,278 Q218,290 220,300 Q218,262 214,238Z"
+          fill="none" stroke="url(#phoenixGold)" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- Body feathers -->
+    <path d="M200,285 Q193,298 191,316 Q198,306 204,290Z" fill="url(#phoenixGold)" opacity="0.45"/>
+    <path d="M214,285 Q221,298 223,316 Q216,306 210,290Z" fill="url(#phoenixGold)" opacity="0.45"/>
+    <path d="M205,308 Q198,322 196,338 Q203,328 208,312Z" fill="url(#phoenixGold)" opacity="0.38"/>
+    <path d="M209,308 Q216,322 218,338 Q211,328 207,312Z" fill="url(#phoenixGold)" opacity="0.38"/>
+
+    <!-- Left tail -->
+    <path d="M196,338 Q174,378 154,430 Q148,452 158,466 Q168,444 180,424 Q196,398 204,368 Q210,350 206,336Z"
+          fill="none" stroke="url(#phoenixGold)" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M202,340 Q182,382 165,432 Q160,454 170,468 Q178,448 190,428 Q205,402 211,372 Q216,354 210,340Z"
+          fill="none" stroke="url(#phoenixGold)" stroke-width="0.9" stroke-linecap="round" opacity="0.55"/>
+
+    <!-- Right tail -->
+    <path d="M218,338 Q240,378 260,430 Q266,452 256,466 Q246,444 234,424 Q218,398 210,368 Q204,350 208,336Z"
+          fill="none" stroke="url(#phoenixGold)" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M212,340 Q232,382 249,432 Q254,454 244,468 Q236,448 224,428 Q209,402 203,372 Q198,354 204,340Z"
+          fill="none" stroke="url(#phoenixGold)" stroke-width="0.9" stroke-linecap="round" opacity="0.55"/>
+
+    <!-- Feet / talons left -->
+    <path d="M196,338 Q184,350 172,354" fill="none" stroke="url(#phoenixGold)" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M196,338 Q188,352 184,362" fill="none" stroke="url(#phoenixGold)" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M196,338 Q194,354 192,364" fill="none" stroke="url(#phoenixGold)" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Feet / talons right -->
+    <path d="M218,338 Q230,350 242,354" fill="none" stroke="url(#phoenixGold)" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M218,338 Q226,352 230,362" fill="none" stroke="url(#phoenixGold)" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M218,338 Q220,354 222,364" fill="none" stroke="url(#phoenixGold)" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Spark particles -->
+    <circle cx="100" cy="200" r="1.8" fill="#F5E060" opacity="0.7"/>
+    <circle cx="88"  cy="218" r="1.2" fill="#F5E060" opacity="0.5"/>
+    <circle cx="112" cy="185" r="1.0" fill="#F5E060" opacity="0.55"/>
+    <circle cx="314" cy="200" r="1.8" fill="#F5E060" opacity="0.7"/>
+    <circle cx="326" cy="218" r="1.2" fill="#F5E060" opacity="0.5"/>
+    <circle cx="302" cy="185" r="1.0" fill="#F5E060" opacity="0.55"/>
+    <circle cx="207" cy="130" r="1.4" fill="#F5E060" opacity="0.65"/>
+    <circle cx="196" cy="138" r="1.0" fill="#F5E060" opacity="0.5"/>
+    <circle cx="218" cy="138" r="1.0" fill="#F5E060" opacity="0.5"/>
+    <circle cx="158" cy="446" r="1.4" fill="#F5E060" opacity="0.4"/>
+    <circle cx="256" cy="446" r="1.4" fill="#F5E060" opacity="0.4"/>
+  </g>
+
+  <!-- Gold rule above author -->
+  <rect x="96" y="470" width="222" height="1.2" fill="url(#goldLine)"/>
+
+  <!-- Author name -->
+  <text x="207" y="493" font-family="Georgia,'Times New Roman',serif" font-size="18"
+        font-weight="400" fill="#180804" text-anchor="middle" letter-spacing="0.6" opacity="0.94">Dra. Bruna Ghetti</text>
+
+  <!-- Author subtitle -->
+  <text x="207" y="509" font-family="Georgia,serif" font-size="8.5" fill="#220C06"
+        text-anchor="middle" letter-spacing="0.4" opacity="0.76">Ginecologista · Saúde Íntima e Longevidade</text>
+
+  <!-- Gold rule below author -->
+  <rect x="116" y="517" width="182" height="1.2" fill="url(#goldLine)"/>
+
+  <!-- Quote -->
+  <text x="207" y="534" font-family="Georgia,serif" font-size="7.8" font-style="italic"
+        fill="#180804" text-anchor="middle" opacity="0.68">"Não troco meus 50 pelos 20 de jeito nenhum"</text>
+  <text x="207" y="547" font-family="Georgia,serif" font-size="7.5" fill="#180804"
+        text-anchor="middle" opacity="0.55">Cátia Damasceno</text>
+
+</svg>
