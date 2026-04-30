@@ -1517,3 +1517,47 @@ footer p {
   .whatsapp-icon { width: 42px; height: 42px; }
   .whatsapp-icon svg { width: 22px; height: 22px; }
 }
+
+/* ══════════════════════════════════════════════
+   LIVRO — bullet list & closing line
+   ══════════════════════════════════════════════ */
+.livro-bullets {
+  list-style: none;
+  margin: 0 0 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.livro-bullets li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.88rem;
+  color: var(--text-mid);
+  line-height: 1.6;
+}
+.livro-bullets li::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  min-width: 5px;
+  background: var(--copper);
+  border-radius: 50%;
+  margin-top: 7px;
+  flex-shrink: 0;
+}
+.livro-closing {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--text);
+  line-height: 1.7;
+  margin-top: 8px;
+  margin-bottom: 0 !important;
+}
+
+/* virada h2 override for longer title */
+#virada h2 {
+  font-size: clamp(1.5rem, 2.8vw, 2.4rem);
+  line-height: 1.3;
+}
