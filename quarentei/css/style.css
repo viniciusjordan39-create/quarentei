@@ -1562,3 +1562,107 @@ footer p {
   font-size: clamp(1.5rem, 2.8vw, 2.4rem);
   line-height: 1.3;
 }
+
+/* ══════════════════════════════════════════════
+   HEADER
+   ══════════════════════════════════════════════ */
+#pageHeader {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 300;
+  padding: 16px 0;
+  transition: background 0.4s ease, padding 0.4s ease, box-shadow 0.4s ease;
+}
+#pageHeader.scrolled {
+  background: rgba(18,10,6,0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 10px 0;
+  box-shadow: 0 1px 0 rgba(181,106,66,0.15);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo { display: flex; align-items: center; }
+.header-logo-img {
+  height: 44px;
+  width: auto;
+  opacity: 0.9;
+  transition: opacity 0.25s ease;
+  filter: brightness(1.1);
+}
+.header-logo-img:hover { opacity: 1; }
+.header-cta {
+  padding: 10px 24px;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+}
+
+/* Push hero down so header doesn't overlap — handled by hero-body padding */
+
+/* ══════════════════════════════════════════════
+   HERO LOGO
+   ══════════════════════════════════════════════ */
+.hero-logo {
+  width: 140px;
+  max-width: 45%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+  opacity: 0.88;
+  filter: brightness(1.05);
+}
+
+/* ══════════════════════════════════════════════
+   AUTORA — ASSINATURA LOGO
+   ══════════════════════════════════════════════ */
+.autora-logo-assinatura {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-top: 24px;
+  opacity: 0.7;
+  filter: brightness(1.15) sepia(10%);
+  transition: opacity 0.3s ease;
+}
+.autora-logo-assinatura:hover { opacity: 0.9; }
+
+/* ══════════════════════════════════════════════
+   FOOTER — LOGOS
+   ══════════════════════════════════════════════ */
+.footer-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+.footer-simbolo {
+  height: 48px;
+  width: auto;
+  opacity: 0.45;
+  filter: brightness(1.2);
+  transition: opacity 0.25s ease;
+}
+.footer-simbolo:hover { opacity: 0.7; }
+.footer-wordmark {
+  height: 52px;
+  width: auto;
+  opacity: 0.5;
+  filter: brightness(1.15) sepia(15%);
+  transition: opacity 0.25s ease;
+}
+.footer-wordmark:hover { opacity: 0.75; }
+
+/* ══════════════════════════════════════════════
+   RESPONSIVE — logos
+   ══════════════════════════════════════════════ */
+@media (max-width: 640px) {
+  .hero-logo { width: 160px; }
+  .header-logo-img { height: 36px; }
+  .header-cta { display: none; }
+  .footer-logos { flex-direction: column; gap: 16px; }
+  .footer-wordmark { height: 40px; }
+}
