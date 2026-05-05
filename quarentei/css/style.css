@@ -1288,15 +1288,36 @@ footer p {
    RESPONSIVE — MOBILE
    ══════════════════════════════════════════════ */
 @media (max-width: 640px) {
-  #hero { grid-template-columns: 1fr; min-height: auto; }
-  .hero-visual { height: 56vw; }
+  #hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .hero-visual {
+    height: 72vw;
+    min-height: 280px;
+  }
+  .hero-visual img {
+    object-position: center 18%;
+  }
   .hero-visual::after {
     background:
-      linear-gradient(to bottom, transparent 40%, var(--dark) 92%),
-      linear-gradient(to right, transparent, transparent);
+      linear-gradient(to bottom,
+        var(--dark) 0%,
+        transparent 15%,
+        transparent 55%,
+        var(--dark) 92%
+      );
   }
-  .hero-body { padding: 36px 24px 60px; }
-  .hero-title { font-size: 3.6rem; }
+
+  .hero-body {
+    padding: 28px 24px 56px;
+  }
+  .hero-logo {
+    width: 110px;
+    margin-bottom: 14px;
+  }
+  .hero-title { font-size: 3.2rem; }
   .hero-scroll { display: none; }
 
   .proof-bar-inner { gap: 28px; }
