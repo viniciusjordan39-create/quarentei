@@ -1282,6 +1282,7 @@ footer p {
   .autora-photo-frame { max-width: 340px; margin: 0 auto; }
   .autora-photo-frame::before { display: none; }
   .testimonials-grid { grid-template-columns: 1fr 1fr; }
+  .btn-full { font-size: 0.78rem; padding: 18px 28px; }
 }
 
 /* ══════════════════════════════════════════════
@@ -1329,8 +1330,22 @@ footer p {
 
   .garantia-flex { flex-direction: column; text-align: center; }
 
-  .oferta-card { padding: 36px 24px; }
-  .price-int { font-size: 5rem; }
+  .oferta-card { padding: 28px 20px; }
+  .price-card { padding: 28px 20px 24px; }
+  .price-int { font-size: 4.8rem; }
+  .price-cur { font-size: 1.5rem; padding-top: 10px; }
+  .price-dec { font-size: 1.5rem; padding-top: 10px; }
+  .price-card-label { font-size: 0.58rem; letter-spacing: 0.2em; }
+  .price-saving-badge { font-size: 0.62rem; padding: 6px 14px; margin-bottom: 22px; }
+  .btn-full {
+    padding: 18px 24px;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .price-sub { font-size: 0.62rem; }
 
   .sticky-bar { display: none; }
 }
